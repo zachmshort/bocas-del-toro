@@ -53,7 +53,7 @@ export default function Main() {
           </h1>
           <p className="text-xl text-white max-w-2xl mb-10">
             Experience the stunning beaches, vibrant coral reefs, and lush
-            rainforests of Panama's Caribbean archipelago
+            rainforests of Panama&apos;s Caribbean archipelago
           </p>
           <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-8 rounded-full shadow-lg transform transition hover:scale-105">
             Plan Your Adventure
@@ -140,7 +140,7 @@ export default function Main() {
               {
                 name: "Bocas Town",
                 description:
-                  "Colorful Caribbean architecture and the archipelago's main town",
+                  "Colorful Caribbean architecture and the archipelago&apos;s main town",
                 image: "/bocas-town.webp",
               },
               {
@@ -225,13 +225,13 @@ export default function Main() {
               },
               {
                 quote:
-                  "I came for the diving and stayed for the vibe. This place has a special energy you won't find anywhere else.",
+                  "I came for the diving and stayed for the vibe. This place has a special energy you won&apos;t find anywhere else.",
                 author: "Miguel R.",
                 location: "Spain",
               },
               {
                 quote:
-                  "From jungle tours to beach hopping, there's no shortage of adventures. I'll definitely be coming back!",
+                  "From jungle tours to beach hopping, there&apos;s no shortage of adventures. I&apos;ll definitely be coming back!",
                 author: "Emma T.",
                 location: "Canada",
               },
@@ -245,7 +245,7 @@ export default function Main() {
                   ))}
                 </div>
                 <p className="text-gray-700 italic mb-6">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </p>
                 <div className="font-medium text-gray-900">
                   {testimonial.author}
